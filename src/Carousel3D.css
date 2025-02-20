@@ -49,7 +49,7 @@
   
   .slide-content {
     position: relative;
-    width: 200px; /* Reduzido para caber melhor na tela */
+    width: 400px; /* Reduzido para caber melhor na tela */
     height: 250px;
     background-color: #1e293b;
     display: flex;
@@ -82,7 +82,7 @@
   
   /* Títulos e Texto */
   .titulo {
-    font-size: 1rem; /* Ajustado para melhor visualização em telas menores */
+    font-size: 2rem; /* Ajustado para melhor visualização em telas menores */
     font-weight: bold;
     color: #fff;
     text-align: center;
