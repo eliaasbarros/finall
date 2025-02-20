@@ -1,0 +1,235 @@
+/* Ajustes gerais */
+.carousel-container {
+    width: 100%;
+    height: 200px; /* Reduz a altura para dispositivos móveis */
+    position: relative;
+    margin-bottom: 80px;
+  }
+  
+  .fundo {
+    background-color: #FB9F9F;
+    width: 90vw; /* Deixa o conteúdo com menos espaço lateral */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  
+  .fundo1 {
+    background-image: url('/public/images/fundo.png');
+    background-color: #FB9F9F;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    
+    
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+  }
+  
+  /* Swiper */
+  .swiper-container {
+    width: 100%;
+    height: 250px; /* Ajuste a altura para dispositivos menores */
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-content {
+    position: relative;
+    width: 200px; /* Reduzido para caber melhor na tela */
+    height: 250px;
+    background-color: #1e293b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .slide-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slide-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Títulos e Texto */
+  .titulo {
+    font-size: 2rem; /* Ajustado para melhor visualização em telas menores */
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .time-marker {
+    text-align: center;
+ 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .video-container {
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  .video-title {
+    font-size: 1.5rem; /* Ajustado para telas pequenas */
+    color: #ffd1dc;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+  .video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .video-wrapper iframe {
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    height: 280px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .romantic-text {
+    margin-top: 4px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .romantic-title {
+    font-size: 2rem; /* Ajustado para melhor visualização em telas menores */
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 6px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-size: 2rem; /* Ajustado para melhor visualização em telas menores */
+    
+  }
+  
+  .romantic-message {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Ajustado para melhor visualização em telas menores */
+    margin-top: 20px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .fundo {
+      width: 90vw;
+      min-height: 70vh;
+      padding: 10px;
+    }
+  
+    .swiper-container {
+      height: 220px; /* Reduz a altura para telas menores */
+    }
+    .slide-text {
+     
+      
+        font-size: 6px;
+        font-weight: bold;
+        text-align: center;
+      }
+  
+    .slide-content {
+      width: 180px;
+      height: 220px;
+    }
+  
+    .titulo {
+      font-size: 1.8rem;
+    }
+  
+    .time-marker {
+      font-size: 16px;
+    }
+  
+    .video-title {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fundo {
+      width: 95vw;
+      min-height: 60vh;
+      padding: 5px;
+    }
+
+    .carousel-container {margin-bottom: 0px;}
+   
+    .slide-text {
+     
+      
+        font-size: 6px;
+        font-weight: bold;
+        text-align: center;
+      }
+  
+    .swiper-container {
+      height: 180px; /* Ajuste para telas muito pequenas */
+    }
+  
+    .slide-content {
+      width: 160px;
+      height: 180px;
+    }
+  
+    .titulo {
+      font-size: 1.5rem;
+    }
+  
+    .time-marker {
+      font-size: 14px;
+    }
+  
+    .video-title {
+      font-size: 1.4rem;
+    }
+  
+    .video-wrapper iframe {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  
