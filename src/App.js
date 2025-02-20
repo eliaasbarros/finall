@@ -65,7 +65,7 @@ const Carousel3D = () => {
   return (
     <div className="fundo1">
 
-       <h1 className="titulo"> Memórias de uma vida de amor💖</h1>
+       <h1 className="titulo"> Memórias de uma vida de amor</h1>
       <div className="fundo">
         <div className="carousel-container">
           <Swiper
@@ -105,7 +105,7 @@ const Carousel3D = () => {
           </p>
         </div>
         <div className="romantic-text">
-          <h2 className="romantic-message">Carta para a minha Beatriz❤️</h2>  
+          <h2 className="romantic-message">Carta para a minha Beatriz</h2>  
           <p className="romantic-message">
           São 3 anos... 3 anos de uma vida que eu nunca fui capaz de sonhar,
 3 anos de tanto amor que me faz desejar, em todas as horas e minutos, viver tudo isso para sempre!
