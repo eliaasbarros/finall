@@ -49,8 +49,8 @@
   
   .slide-content {
     position: relative;
-    width: 200px; 
-    height: 250px;
+    width: 1200px; /* Reduzido para caber melhor na tela */ 
+    height: 1600px;
     background-color: #1e293b;
     display: flex;
     justify-content: center;
