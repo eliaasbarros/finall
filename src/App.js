@@ -108,8 +108,7 @@ const Carousel3D = () => {
           <h2 className="romantic-message">Carta para a minha Beatriz❤️</h2>  
           <p className="romantic-message">
           São 3 anos... 3 anos de uma vida que eu nunca fui capaz de sonhar,
-3 anos de tanto amor que me faz desejar, em todas as horas e
-minutos, viver tudo isso para sempre!
+3 anos de tanto amor que me faz desejar, em todas as horas e minutos, viver tudo isso para sempre!
 
 Eu não consigo passar um dia sem você e se passo, fico contando as
 horas pra te ver de novo. Você tem sido, nesses 3 anos, e vai ser pra
