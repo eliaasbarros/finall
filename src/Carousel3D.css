@@ -50,7 +50,7 @@
   .slide-content {
     position: relative;
     width: 400px; /* Reduzido para caber melhor na tela */
-    height: 250px;
+    height: 450px;
     background-color: #1e293b;
     display: flex;
     justify-content: center;
