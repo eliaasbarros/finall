@@ -164,7 +164,7 @@ Eu te amo hoje e para sempre, minha Beatriz ❤️❤️❤️
         <iframe
           width="0"
           height="0"
-          src="https://www.youtube.com/embed/9Umyg4uWDio?autoplay=1&loop=1&playlist=nQJEp-k-ogs" 
+          src="https://www.youtube.com/watch?v=nQJEp-k-ogs" 
           frameBorder="0"
           allow="autoplay; encrypted-media"
           allowFullScreen
