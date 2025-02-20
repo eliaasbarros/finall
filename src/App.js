@@ -105,7 +105,6 @@ const Carousel3D = () => {
           </p>
         </div>
         <div className="romantic-text">
-          <h2 className="romantic-title">São 3 anos💖</h2>
           <p className="romantic-message">
           São 3 anos... 3 anos de uma vida que eu nunca fui capaz de sonhar,
 3 anos de tanto amor que me faz desejar, em todas as horas e
