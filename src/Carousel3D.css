@@ -83,7 +83,7 @@
   /* Títulos e Texto */
   .titulo {
     font-size: 2rem; /* Ajustado para melhor visualização em telas menores */
-    font-weight: bold;
+    font-weight: arial;
     color: #fff;
     text-align: center;
     margin-bottom: 10px;
